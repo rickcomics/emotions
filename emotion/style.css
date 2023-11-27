@@ -1,0 +1,20 @@
+body{
+    display: flexbox;
+    text-align: center;
+    background-image: url('./src/grace.jpg');
+    
+}
+#toTop {
+    width: 32px;
+    height: 32px;
+    border: 3px double #fff200;
+    border-radius: 99%;
+    position: fixed;
+    bottom: 30px; /* отступ кнопки от нижнего края страницы*/
+    right: 40px;
+    cursor: pointer;
+    display: none;
+    background: repeating-radial-gradient(red,white);
+    box-shadow: 1px 1px 1px red;
+    background-size: cover;
+    }
