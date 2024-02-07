@@ -22,7 +22,7 @@ function picture(picture){
     img.setAttribute('alt','picture');
     img.style.width = '200px';
     img.style.height = '200px';
-    img.style.borderRadius = '10%';
+    img.style.borderRadius = 10 +'%';
     img.src = `${picture}`;
 
     document.body.append(img)
